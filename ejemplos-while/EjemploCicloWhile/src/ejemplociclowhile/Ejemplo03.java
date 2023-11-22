@@ -27,14 +27,15 @@ public class Ejemplo03 {
         int valor_ingresado;
         
         while (contador <= limite) { 
-            System.out.println("Ingrese el valor a sumar");
-            valor_ingresado = entrada.nextInt();
-            suma = suma + valor_ingresado;
-            System.out.printf("Valor ingresado %d\n", valor_ingresado);
-            contador = contador + 1;
+            System.out.println("Ingrese el valor a sumar"); // Una estructura bucle que se usa para repetir el ciclo
+            valor_ingresado = entrada.nextInt(); // Entrada de dato entero
+            suma = suma + valor_ingresado; // Suma de los valores ingresados
+            System.out.printf("Valor ingresado %d\n", valor_ingresado);// Presentar el valor ingresado en pantalla
+            contador = contador + 1; // Aumenta el contador
         }
 
         System.out.printf("La suma final es %d\n", suma);
 
     }
 }
+
